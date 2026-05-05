@@ -5,6 +5,7 @@ Este projeto é uma simulação de batalha por turnos entre dois personagens (in
 A batalha acontece em até 5 rodadas, e em cada rodada:
 
 Cada jogador rola um dado de 20 lados 🎲
+
 O valor do dado é somado ao poder do personagem
 Quem tiver o maior valor causa dano no adversário
 O dano é a diferença entre os ataques
@@ -18,6 +19,7 @@ As 5 rodadas acabam
 No final, o programa mostra quem venceu 🏆
 
 📚 Matérias / Conceitos Utilizados
+
 💻 1. Programação em JavaScript
 
 Você usou a linguagem JavaScript, incluindo:
