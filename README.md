@@ -1,38 +1,36 @@
 🧾 Descrição do Projeto
 
-Este projeto é uma simulação de batalha por turnos entre dois personagens (inspirados em Pokémon), onde cada um possui atributos como nome, vida (HP) e poder de ataque.
+Neste projeto, eu desenvolvi uma simulação de batalha por turnos entre dois personagens inspirados em Pokémon. Cada personagem possui atributos como nome, pontos de vida (HP) e poder de ataque.
 
-A batalha acontece em até 5 rodadas, e em cada rodada:
+A batalha acontece em até 5 rodadas. Em cada rodada, eu simulo a rolagem de um dado de 20 lados para cada personagem, somo esse valor ao poder de ataque e comparo os resultados. O personagem com maior valor causa dano no adversário, e esse dano é calculado pela diferença entre os ataques.
 
-Cada jogador rola um dado de 20 lados 🎲
+A batalha termina quando um dos personagens perde toda a vida ou quando as rodadas acabam. No final, o sistema informa quem venceu ou se houve empate.
 
-O valor do dado é somado ao poder do personagem
-Quem tiver o maior valor causa dano no adversário
-O dano é a diferença entre os ataques
+📚 Conceitos que eu utilizei
+💻 Programação em JavaScript
 
-A batalha termina quando:
+Neste projeto, eu utilizei JavaScript para implementar toda a lógica da batalha, criando variáveis, funções e organizando o código de forma estruturada.
 
-Um dos personagens perde toda a vida
-ou
-As 5 rodadas acabam
+🧠 Lógica de Programação
 
-No final, o programa mostra quem venceu 🏆
+Eu apliquei lógica de programação para controlar o funcionamento do jogo, utilizando:
 
-📚 Matérias / Conceitos Utilizados
+laços de repetição (for) para representar as rodadas
+estruturas condicionais (if/else) para decidir quem causou dano
+operadores de comparação para verificar os resultados dos ataques
+controle de fluxo com break para encerrar a batalha quando necessário
+🎲 Aleatoriedade e Matemática
 
-💻 1. Programação em JavaScript
+Para simular a imprevisibilidade da batalha, utilizei Math.random() para gerar números aleatórios, representando a rolagem de um dado de 20 lados. Também utilizei operações matemáticas como soma (para calcular o ataque) e subtração (para calcular o dano).
 
-Você usou a linguagem JavaScript, incluindo:
+🧱 Estruturas de Dados (Objetos)
 
-const e criação de variáveis
-funções (function)
-funções assíncronas (async/await)
+Modelei os personagens utilizando objetos, armazenando informações como nome, HP e poder. Isso ajudou a organizar melhor os dados e facilitar o acesso às informações durante a execução da batalha.
 
-🧠 2. Lógica de Programação
+⚙️ Programação Assíncrona
 
-Esse é o principal ponto do seu projeto:
+Utilizei funções assíncronas com async e await para estruturar melhor a execução do código, garantindo que as ações aconteçam na ordem correta.
 
-Estrutura de repetição (for) → controla as rodadas
-Estrutura condicional (if/else) → decide quem causou dano
-Comparações (>, <, ===)
-Controle de fluxo (break)
+🖥️ Saída de Dados
+
+Utilizei console.log() para exibir todas as informações da batalha, como as rodadas, valores dos dados, danos causados e o resultado final.
